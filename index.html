@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        arreglar el curriculum
+        1- Un encabezado con su nombre y ocupacion, tipo header
+        2- Listado de intereses como sidebar
+        3- Todo el contenido extra como un contenido (section)
+        4- Crear un footer con su informacion de contacto (correo, número, redes sociales)
+        5- con etiquetas semanticas HTML5
+        */
+        /*#header{
+            width: 100%;
+            height: auto;
+            background-color: brown;
+        }*/
+    
+        #sidebar{
+            font-size: 30px;
+            float: left;
+            width: 15%;
+            height: 410px;
+            background-color: #EFFFFD;
+
+            
+        }
+        #content{
+            width: 85%;
+            float: right;
+            height: 410px;
+            background-color: #EFFFFD;
+
+        }
+
+        /*#content, #sidebar, body, html{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }*/
+
+        #footer{
+
+            background-color: #FFB2A6;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body style="background-color: #F6E7D8;">
+
+    <head>
+    <div id="header">
+        <table>
+            <tr>
+                <td><img width="250" height="350" src="isma.jpg" alt="imagen de isma"></td>
+                <td>
+                    <h1>Eismaeli Barrera <br> Estudiante Universitario <br> Departamento de Ingenieria y Arquitectura</h1>
+                    <br><strong>Universidad de El Salvador, Facultad Multidisciplinaria de Oriente</strong>
+                    <br><br>Ingenieria de <a href="http://secretariageneral.ues.edu.sv/index.php?option=com_content&view=article&id=60&Itemid=94"> Sistemas Informaticos. 2022.</a>
+                    <br><br>Trabajador de la empresa Specialty Foods S.A de C.V Wendy´s El Salvador
+
+                </td>
+                
+        </table>
+
+    </div>
+    </head>
+    <div id="sidebar">
+                    <br><ul style="list-style: circle;">
+                        <a href="https://store.steampowered.com/"><li>Videojuegos</li></a>
+                        <a href="https://github.com/"><li>Programacion</li></a>
+                        <a href="https://es.wikipedia.org/wiki/Tecnolog%C3%ADa"><li>Tecnologia</li></a>
+                        <a href="https://www.cultura.gob.sv/marco-institucional/direccion-nacional-de-casas-de-la-cultura-y-parques-culturales/parque-zoologico-nacional-2/"><li>Animales</li></a>
+                        <li>Vida de campo</li><br>
+                    </ul>
+    </div>
+    <div id="content">
+        <hr size="">
+        <p>Estudiante de la Universidad de El Salvador en la carrera de ingenieria en sistemas. <a href="https://www.facebook.com/edwin.campos.3576/">Perfil</a> de mi red social donde me puede encontrar </p>
+        <hr size="">
+        <p>Actual trabajador para la empresa de wendy's El Salvador con experiencia laboral de 2 años atendiendo clientes </p>
+        <hr size="">
+        <p>Las siguientes son <em>citas.</em> De mis favoritas</p>
+        <em><p>Jenos</p></em>
+        <blockquote>"Deseo, miedo, odio. Estas feas palabras son las que todos los hombres conocen. Necesitamos aprender palabras nuevas y hermosas."</blockquote>
+        <dfn title=" fue un boxeador estadounidense, considerado uno de los mejores de todos los tiempos. Fue una figura social de enorme influencia en su generación, en la política y en las luchas sociales o humanitarias a favor de los afroamericanos y del islam."><em><p>Muhammad Ali</p></em></dfn>
+        <blockquote>“El hombre que ve el mundo a los 50 igual que lo veía a los 20, desperdició 30 años de su vida”.</blockquote>
+        <hr size="">
+        <p>Pagina oficial de mi empresa actual: <a href="https://www.facebook.com/wendyselsalvador/"><em>Link</em></a></p>
+        <hr size="">
+        <p>Estas son algunas definiciones de mi interes <dfn title="Es una aplicación interactiva orientada al entretenimiento que, a través de ciertos mandos o controles, permite simular experiencias en la pantalla de un televisor, una computadora u otro dispositivo electrónico."> Videojuegos</dfn></p>
+        <hr>
+    </div>
+
+    <div id="footer">
+        <h1>Informacion Personal</h1>
+        <p>Email:</p>
+        <a href="mailto:ba20010@ues.edu.sv">ba20010@ues.edu.sv</a>
+        <p>Direccion: <br>
+        Ruta Militar 10A Avenida Norte 822, salida a Santa Rosa de Lima, <br>
+        San Miguel San Miguel <br>
+        El Salvador, 503</p>
+    </div>
+</body>
+</html>
